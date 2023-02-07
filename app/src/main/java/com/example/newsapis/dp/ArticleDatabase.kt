@@ -13,7 +13,7 @@ import com.example.newsapis.ui.model.Article
 
 abstract class ArticleDatabase: RoomDatabase() {
 
-    abstract fun getArticlesDao(): ArticleDao
+    abstract fun getArticleDao(): ArticleDao
 
     companion object{
         @Volatile
